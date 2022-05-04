@@ -7,10 +7,10 @@ use App\Models\persona;
 class Personarepository{
 
 
-    public function create($nombre,$apPaterno, $apMaterno,$edad, $FechNA,
+    public function create($nombre_p,$apPaterno, $apMaterno,$edad, $FechNA,
     $direccion, $colonia,$ciudad, $estado,$Codpostal, $telefonos,$sexo, 
     $Edo_civil,$ocupacion, $emp_aseg,$alergias,$T_credito, $empresas_id,){
-        $personas['nombre'] = $nombre;
+        $personas['nombre_p'] = $nombre_p;
         $personas['apPaterno'] = $apPaterno;
         $personas['apMaterno'] = $apMaterno;
         $personas['edad'] = $edad;

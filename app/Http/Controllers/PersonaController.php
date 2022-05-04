@@ -42,7 +42,7 @@ class PersonaController extends Controller
 
 
             $person = $this->persons_repository->create(
-                $request->get('name'),
+                $request->get('nombre_p'),
                 $request->get('apPaterno'),
                 $request->get('apMaterno'),
                 $request->get('edad'),
